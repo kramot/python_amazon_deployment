@@ -11,7 +11,9 @@ This script:
 6) Terminates old instances
 
 
+
 Usage:
+=====
 
 python deploy.py -d [String. Config file directory path] -p [String. Production load balancer name] -t [Integer. Total number of instanced to produce. Optional - default 2] -m [Integer. Timeout in minutes for each step. Optional - default 5]
 
