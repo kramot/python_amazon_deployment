@@ -1,0 +1,25 @@
+----------------------------------------------------
+INFO:root:Script started @ 2014-01-25 22:01:36
+INFO:root:LoadBalancer:XXX-lb
+INFO:root:ami-XXXXXXXX
+INFO:root:Image ami-XXXXXXXX status pending  
+INFO:root:Image ami-XXXXXXXX status available  
+INFO:root:Currently running instances:
+INFO:root:['i-YYYYYYYY']
+INFO:root:Instance i-XXXXXXXX status pending  
+INFO:root:Instance i-XXXXXXXX status running  
+INFO:root:Newly created instances:
+INFO:root:['i-XXXXXXXX']
+INFO:root:Adding i-XXXXXXXX to ELB XXX-lb
+INFO:root:Instance i-XXXXXXXX now successfully InService in ELB XXX-lb (took 81 seconds)
+INFO:root:Removing i-YYYYYYYY from ELB XXX-lb
+INFO:root:Create ami from production instance
+INFO:root:ami-YYYYYYYY
+INFO:root:Image ami-YYYYYYYY status pending  
+INFO:root:Image ami-YYYYYYYY status pending  
+INFO:root:Image ami-YYYYYYYY status pending  
+INFO:root:Image ami-YYYYYYYY status pending  
+INFO:root:Image ami-YYYYYYYY status available  
+INFO:root:Terminate i-YYYYYYYY 
+INFO:root:Script ended @ 2014-01-25 22:04:30
+INFO:root:Complete
